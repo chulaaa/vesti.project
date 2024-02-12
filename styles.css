@@ -356,6 +356,7 @@ body {
         border: 1px solid transparent;
         border-radius: 5px;
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        padding: 10px 0px;
     }
 }
 /* end of section two */
@@ -547,8 +548,9 @@ body {
         padding: 20px;
     }
     .four-grid {
-         grid-template-columns: 1fr; 
+        grid-template-columns: 1fr; 
         justify-items: center; 
+        gap: 20px;
         width: 100%;
     }
     .gift-box {
@@ -769,15 +771,18 @@ body {
     .button-container {
         display: none;
     }
+    .extention {
+        padding: 10px;
+        top: 120px;
+    }
+    .six-part {
+        margin-bottom: 60px;
+    }
 }
 
 @media screen and (max-width: 1194px) {
     .six-heading {
         width: 100%;
-    }
-    .extention {
-        padding: 15px;
-        top: 60px;
     }
     .slide-img {
         width: 22%;
@@ -828,12 +833,13 @@ body {
     }
     .six-part {
         padding-bottom: 25%;
+        margin-bottom: 60px;
     }
     .button-container {
         display: none;
     }
     .extention {
-        top: 220px;
+        top: 230px;
         padding: 0px;
     }
     .ext-heading {
@@ -863,6 +869,7 @@ body {
     }
     .extention {
         display: block;
+        padding: 10px;
     }
     .first-row {
         padding: 5px;
@@ -889,28 +896,31 @@ body {
         width: 85%;
     }
 }
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 540px) {
     .six-part {
-        margin-bottom: 85px;
+        margin-bottom: 165px;
     }
     .extention {
-        top: 270px;
+        top: 280px;
     }
 }
 @media screen and (max-width: 490px) {
     .six-part {
-        margin-bottom: 100px;
+        margin-bottom: 170px;
+    }
+    .extention {
+        top: 290px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 428px) {
     .six-part {
-        margin-bottom: 160px;
+        margin-bottom: 220px;
     }
-
     .extention {
         top: 310px;
         display: grid;
         justify-items: center;
+        width: 100%;
     }
     .ext-heading {
         font-size: 12px;
@@ -929,23 +939,15 @@ body {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 320px) {
     .six-part {
-        padding: 20px;
+        margin-bottom: 270px;
     }
-    .six-heading h2 {
-        font-size: 18px;
-    }
-    .six-heading p {
-        font-size: 12px;
-    }
-    .article {
-        font-size: 14px;
-    }
-    .name {
-        font-size: 14px;
+    .extention {
+        top: 350px;
     }
 }
+
 /* end section 6 */
 
 /* footer */
@@ -981,7 +983,7 @@ body {
 }
 .container {
     display: flex;
-    padding: 10%;
+    padding: 100px 50px 50px 50px ;
 }
 .footer-p {
     width: 58%;
